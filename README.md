@@ -2,26 +2,16 @@
 
 Starter for rust wasm frontend prototyping with tailwind utility classes.
 
-# Running
-
-Start both commands in separate shells:
-
 ```
 trunk serve --open
-npx tailwindcss -i styles -o tailwind.css --watch
 ```
 
-# Setup
-
-## Trunk
+## Setup
 
 ```
-brew install trunk
+cargo install --locked trunk
 ```
 
-## Tailwind
-
 ```
-brew install node  # install node
-npm install -g tailwindcss  # globally install tailwind for the CLI tool
+brew install tailwindcss
 ```
