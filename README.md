@@ -11,7 +11,3 @@ trunk serve --open
 ```
 cargo install --locked trunk
 ```
-
-```
-brew install tailwindcss
-```
